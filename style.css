@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Avenir');
+
+.main-container {
+    color: grey;
+    font-family: 'Avenir', arial;
+
+}
+
+#byline {
+
+    font-size: 11px;
+
+}
+
+img {
+    height: 50%; 
+    width: 50%;
+} 
+
+.block {
+
+    color: black;
+    float: center;
+    width: 500px;
+    background: #dff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#caption {
+
+    font-size: 11px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: url("hero.jpg");
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Hover effect */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
